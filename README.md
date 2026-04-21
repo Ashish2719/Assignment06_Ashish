@@ -1,72 +1,68 @@
-# 💳 Premium Banking App (Flutter) – Assignment 4
+# Premium Banking App
 
-A modern, premium UI-based banking mobile application built using Flutter as part of Assignment 4.
-
-This project demonstrates core mobile app development concepts including UI design, navigation, form validation, and dynamic data handling.
+A modern Flutter mobile banking application developed as part of the Mobile App Project Development course. This project demonstrates the complete app lifecycle from UI design and development to testing, optimization, and deployment-ready build preparation.
 
 ---
 
-## 🚀 Features
+## Project Overview
 
-- 🔐 Login Screen with validation
-- 📊 Dashboard with balance and recent transactions
-- 📜 Transaction History with search and filters
-- 💸 Send Money (Payment flow)
-- ✅ Success Confirmation Screen
-- ⏳ Loading states and feedback messages
-- 📱 Responsive layout (mobile-friendly)
+Premium Banking App is a clean and professional banking MVP designed to provide users with a smooth and premium experience. The application includes secure form validation, transaction viewing, money transfer workflow, responsive UI, and production-ready Android build generation.
 
----
+This project was continued across multiple assignments:
 
-## 🧠 Concepts Implemented
-
-- Navigation between multiple screens
-- Form validation (username, password, payment fields)
-- Dynamic mock data handling
-- State management using StatefulWidgets
-- User feedback using Snackbars and loading indicators
-- Clean and reusable UI components (Custom Button)
+- Assignment 4 – UI Design & Development  
+- Assignment 5 – Testing & Debugging  
+- Assignment 6 – Final Build & Deployment Ready Version  
 
 ---
 
-## 📂 Project Structure
+## Features
 
-lib/
-├── main.dart
-├── screens/
-│ ├── login_screen.dart
-│ ├── dashboard_screen.dart
-│ ├── transaction_screen.dart
-│ ├── payment_screen.dart
-│ └── success_screen.dart
-└── widgets/
-└── custom_button.dart
-
+- Secure Login Screen
+- Premium Dashboard UI
+- Transaction History Screen
+- Search and Filter Transactions
+- Send Money / Payment Flow
+- Payment Success Screen
+- Form Validation
+- Environment Configuration (`.env.dev`, `.env.prod`)
+- Custom App Icon
+- Splash Screen
+- Release APK Build Ready
 
 ---
 
-## 🛠️ Tech Stack
+## App Screens
+
+1. Login Screen  
+2. Dashboard Screen  
+3. Transaction History Screen  
+4. Payment Screen  
+5. Success Screen  
+
+---
+
+## Tech Stack
 
 - Flutter
 - Dart
-- Material UI
+- Material Design 3
+- flutter_dotenv
+- flutter_launcher_icons
+- flutter_native_splash
 
 ---
 
-## 📌 Notes
+## Project Structure
 
-- This is an MVP (Minimum Viable Product)
-- Uses mock data (no backend integration)
-- Designed to demonstrate UI/UX and app flow
-
----
-
-## 👤 Author
-
-Ashish Prajapati
-
----
-
-## ⭐ Acknowledgement
-
-Developed as part of coursework for UI/UX and Mobile Application Development.
+```text
+lib/
+├── main.dart
+├── screens/
+│   ├── login_screen.dart
+│   ├── dashboard_screen.dart
+│   ├── transaction_screen.dart
+│   ├── payment_screen.dart
+│   └── success_screen.dart
+└── widgets/
+    └── custom_button.dart
